@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTide 公式サイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TechTide 公式サイト</h1>
+    <p>TechTideのDiscordサーバーへようこそ！</p>
+</header>
+
+<nav>
+    <a href="#home">ホーム</a>
+    <a href="#join">サーバー参加</a>
+    <a href="#about">サーバー概要</a>
+    <a href="#community">コミュニティ</a>
+    <a href="#contact">お問い合わせ</a>
+</nav>
+
+<!-- ホームページ -->
+<div class="container" id="home">
+    <h2>TechTideへようこそ！</h2>
+    <p>私たちのDiscordサーバーで、最新の技術、ゲーム、議論などを楽しんでください。</p>
+    <a href="#join" class="button">今すぐ参加する</a>
+</div>
+
+<!-- サーバー参加ページ -->
+<div class="container" id="join">
+    <h2>サーバー参加</h2>
+    <p>Discordサーバーに参加して、コミュニティの一員になりましょう！</p>
+    <a href="https://discord.gg/your-invite-link" class="button" target="_blank">Discordサーバーに参加する</a>
+</div>
+
+<!-- サーバー概要ページ -->
+<div class="container" id="about">
+    <h2>サーバー概要</h2>
+    <p>TechTideは、技術、ゲーム、議論を楽しむためのコミュニティです。メンバーが自由に参加し、活動できる場所です。</p>
+</div>
+
+<!-- コミュニティページ -->
+<div class="container" id="community">
+    <h2>コミュニティ</h2>
+    <p>TechTideでは、定期的にイベントやアクティビティが行われています。ぜひ参加して、楽しんでください！</p>
+</div>
+
+<!-- お問い合わせページ -->
+<div class="container" id="contact">
+    <h2>お問い合わせ</h2>
+    <p>サーバーに関する質問があれば、以下のフォームからご連絡ください。</p>
+    
+    <!-- お問い合わせフォーム -->
+    <form action="your-server-endpoint" method="POST">
+        <div>
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <div>
+            <button type="submit" class="button">送信</button>
+        </div>
+    </form>
+
+    <!-- ソーシャルメディアリンク -->
+    <h3>私たちをフォローして最新情報をゲット！</h3>
+    <ul>
+        <li><a href="https://x.com/TechTide885" target="_blank">X (旧Twitter) - TechTide885</a></li>
+        <li><a href="https://note.com/techtide" target="_blank">NOTE - TechTide</a></li>
+        <li><a href="https://www.youtube.com/@TechTide214" target="_blank">YouTube - TechTide214</a></li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2025 TechTide. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
